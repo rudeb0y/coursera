@@ -13,6 +13,20 @@ h1 {
 	float: left;
 }
 
+p {
+	padding: 5px;
+}
+
+#beef, #chicken, #fish {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	border: 1px solid black;
+}
+.row section {
+	background-color: grey;
+
+}
 
 @media (min-width: 992px) {
   .col-lg-1,
@@ -28,7 +42,7 @@ h1 {
   .col-lg-11,
   .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    border: 5px solid white;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -40,7 +54,7 @@ h1 {
     width: 25%;
   }
   .col-lg-4 {
-    width: 33%;
+    width: 33.33%;
   }
   .col-lg-5 {
     width: 41.66%;
