@@ -22,12 +22,14 @@ p {
 }
 
 .fish, .chicken, .beef {
+  position: relative;
 	float: right;
 	padding: 5px;
 	width: 100px;
 	text-align: center;
 	border: 1px solid black;
   font-size: 1.25em;
+  top: -20px;
 }
 
 .fish {
