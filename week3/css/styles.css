@@ -5,25 +5,18 @@
 	margin: 10px 10px 10px 10px;
 	height: 1000px;
 }
-
 #menu {
 	color: white;
- 
 }
-
 #menu li {
 	border-top: 1px solid grey;
 	border-bottom: 1px solid grey;
 	padding: 5px;
 	background-color: #444444;
- 
 }
-
 #menu li:hover {
 	background-color: black;
- 
 }
-
 .navbar-header .navbar-brand {
 	font-size: 2em
 }
