@@ -1,62 +1,30 @@
-
 #main-section {
-	background-color: #BBBBCC;;
+	background-color: silver;
 	color: black;
 	padding: 10px;
 	margin: 10px 10px 10px 10px;
 	height: 1000px;
-	cp
 }
 
-#branding {
-	 color: black;
-	 font-size: 2em;
-}
-
-.navbar.navbar-default {
-	background-color: #CCCCDD;
-	border: 1px solid black;
-}
-
-.nav.navbar-nav.visible-xs li {
-    margin: 0px;
-}
-.nav.navbar-nav.visible-xs li a {
-	border: 1px solid black;
-	background-color:  #9999AA;
-   }
-.nav.navbar-nav.visible-xs li a {
-    color: black;
-}
-
-.nav.navbar-nav.visible-xs li a:hover {
-	border: 1px solid black;
-    background-color:  #BBBBCC;
-}
-
-.nav.navbar-nav.visible-xs {
-    margin: 0px;
-}
-
-.navbar-brand {
+#menu {
 	color: white;
-	size: ;
+ 
 }
 
 #menu li {
-	margin: 0px;
-	padding: 0px;
+	border-top: 1px solid grey;
+	border-bottom: 1px solid grey;
+	padding: 5px;
+	background-color: #444444;
+ 
 }
 
-#menu li {
-	margin: 0px;
-	padding: 0px;
+#menu li:hover {
+	background-color: black;
+ 
 }
 
-div#menu.navbar-collapse.collapse.in {
-	padding: 0px;
-	border: 0px;
+.navbar-header .navbar-brand {
+	font-size: 2em
 }
-
-
 
